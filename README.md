@@ -18,6 +18,7 @@ Simple key value server written in Go.
 
 First you'll need to __get__ the testing library. You only have to do this once.
 
+    go get github.com/ricallinson/mapr
 	go get github.com/ricallinson/simplebdd
 
 ### Run Tests
