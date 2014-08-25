@@ -16,8 +16,14 @@ Simple key value server written in Go.
 
 ## Testing
 
+First you'll need to __get__ the testing library. You only have to do this once.
+
+	go get github.com/ricallinson/simplebdd
+
+### Run Tests
+
 	go test
 
-## Benchmark
+### Run Benchmark
 
 	go test -bench .

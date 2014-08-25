@@ -2,9 +2,9 @@ package main
 
 import (
 	. "github.com/ricallinson/simplebdd"
+	"strconv"
 	"testing"
 	"time"
-	"strconv"
 )
 
 func TestServer(t *testing.T) {
