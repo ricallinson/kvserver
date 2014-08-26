@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-    "github.com/ricallinson/mapr"
+	"github.com/ricallinson/mapr"
 )
 
 func main() {
@@ -11,5 +11,5 @@ func main() {
 	flag.Parse()
 	fmt.Printf("Server running on port %v\n", *port)
 	s := mapr.NewServer(*port)
-    s.Listen()
+	s.Listen()
 }
