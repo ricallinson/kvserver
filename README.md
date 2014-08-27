@@ -10,6 +10,10 @@ Simple key value server written in Go.
 
 	kvserver -port 9090
 
+## Benchmarking Tool
+
+    kvserver bench 127.0.0.1:9090
+
 ## Debuging
 
 	http://localhost:9090/debug/rpc
